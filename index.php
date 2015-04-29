@@ -5,11 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, minimumscale=
 1.0, maximum-scale=1.0" />
-<title>Evergreen Cycles and Repair</title>
-<link href="style.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" href="flexslider.css" type="text/css">
+<title><?php bloginfo('description'); ?> | <?php bloginfo('name'); ?> </title>
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" >
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="jquery.flexslider.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/jquery.flexslider.js"></script>
 <!-- Place in the <head>, after the three links -->
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
@@ -22,13 +22,13 @@
 
 
 
-<body>
+<body <?php body_class();?>>
 <div id="wrapper">
 
 
 <div id="content">
 <header>
-<a href="home.html"><img src="images/evergreen-header.png" alt="header" class="header"/></a>
+<a href="../wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-header.png" alt="header" class="header"/></a>
 </header>
 <nav class="main">
 <ul class="main">
@@ -43,7 +43,7 @@
 <section>
 <h2 id="about-page">About</h2>
 <div id="about">
-<img src="images/about.png" alt="about pic" class="about" />
+<img src="<?php bloginfo('template_directory'); ?>/images/about.png" alt="about pic" class="about" />
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen booLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 </div>
 </section>
@@ -62,9 +62,9 @@
 </aside>
 
 <div class="images">
-<div id="evergreen"><h4>EG Advantage</h4><a href="evergreen-advantage.php"><img src="images/evergreen-advantage.png" alt="Evergreen Advantage" class="align-right" /></a></div>
-<div id="trails"><h4>Trails</h4><a href="http://mmba.org/trail-guide/"><img src="images/trails.png" alt="Trails" class="align-right" /></div></a>
-<div id="map"><h4>Map</h4><img src="images/embeded-map.png" alt="Embeded Map" class="align-right" /></div>
+<div id="evergreen"><h4>EG Advantage</h4><a href="evergreen-advantage.php"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-advantage.png" alt="Evergreen Advantage" class="align-right" /></a></div>
+<div id="trails"><h4>Trails</h4><a href="http://mmba.org/trail-guide/"><img src="<?php bloginfo('template_directory'); ?>/images/trails.png" alt="Trails" class="align-right" /></div></a>
+<div id="map"><h4>Map</h4><img src="<?php bloginfo('template_directory'); ?>/images/embeded-map.png" alt="Embeded Map" class="align-right" /></div>
 </div>
 
 
