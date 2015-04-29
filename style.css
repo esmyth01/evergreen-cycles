@@ -1,0 +1,839 @@
+@charset "UTF-8";
+/*
+Theme Name: evergreen-cycles
+Theme URI: http://evansmyth.com/wordpress/themes/evergreen-cycles
+Author: Evan Smyth
+Author URI: http://evansmyth.com
+Description: This is the theme for my web170 wordpress course at Seattle Central College
+Version: 1.0
+*/
+
+
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+
+
+
+body{
+
+
+
+background-color:white;
+font-family:"trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:100%;
+width:100%;
+
+
+
+
+
+
+
+}
+
+#wrapper {
+	width:80%;
+	background-image:url(../images/wrapper.png);
+	margin:auto;
+
+
+
+
+
+}
+
+header {
+	width:100%;
+
+
+
+
+
+
+}
+
+img.header {
+	width:100%;
+
+
+}
+
+
+
+nav.main { clear:both; margin-bottom:3%; }
+nav.main { width: 100%; background-color:#085e08; }
+nav.main ul { list-style: none; padding: 0px; margin: 0px; font-weight: bold; text-align: center; }
+nav.main ul li { display: inline-block; }
+nav.main ul li a { display: block; padding: 10px 40px; text-decoration: none; color: white; }
+nav.main ul li a:hover { background-color: white; color: #085e08; }
+
+/*
+nav.main {
+	width:100%;
+	height:40px;
+	background-color:green;
+		font-size:100%;
+
+
+}
+ul.main {
+	text-align:center;
+
+}
+
+li.main {
+	display:inline-block;
+	text-decoration:none;
+	padding:4%;
+	padding-top:.8%;
+
+
+}
+
+li.main a {
+	text-decoration:none;
+	color:white;
+
+	font-size:18px;
+
+}
+
+*/
+
+div#content {
+	width:62.9%;
+	margin:auto;
+	background-color:white;
+
+}
+div#live {
+
+	margin:auto;
+	width:97.916667%;
+	background-color:white;
+}
+img.align-center {
+	width:100%;
+	margin-top:2%;
+
+
+}
+section {
+	background-color:white;
+	margin-top:2%;
+	margin-bottom:2%;
+
+	width:65.957446%;
+	float:left;
+	border-right-width:2px;
+
+	border-right-style:solid;
+	border-right-color:black;
+
+
+	}
+
+
+
+p#home {
+	font-size:1.1em;
+	padding-right:5%;
+	text-align:justify;
+	text-align:center;
+
+}
+h2#home {
+	font-size:1.5em;
+	padding-bottom:2%;
+	color:#085e08;
+	text-align:center;
+
+}
+aside {
+	background-color:white;
+	margin-top:2%;
+	width:31.914893%;
+	float:right;
+	margin-bottom:2%
+
+
+
+
+
+}
+h3#news {
+	font-size:1.3em;
+	text-align:center;
+	color:#085e08;
+	margin-bottom:10%;
+	text-decoration:underline;
+}
+aside ul {
+	list-style:none;
+	font-size:1em;
+	text-align:center;
+}
+aside ul li {
+	line-height:1.2em;
+	margin-bottom:10%;
+
+}
+
+
+
+/*p#news {
+	text-align:center;
+	font-size:1em;
+}
+
+*/
+
+div.images {
+	clear:both;
+	width:100%;
+	background-color:white;
+
+
+
+}
+img.align-right {
+	width:93.33333333%;
+	margin-left:3.2%;
+	border:1px;
+
+	border-style:solid;
+	border-color:black;
+
+
+
+
+}
+div#evergreen, div#trails, div#map {
+	width:31.914893%;
+	float:left;
+	background-color:white;
+	margin-bottom:2%;
+
+
+
+}
+
+div.images h4 {
+	font-size:1.1em;
+	text-align:center;
+	padding-bottom:2%;
+	color:#085e08;
+	text-decoration:underline;
+
+}
+div#trails, div#map {
+	margin-left:2.127659%
+
+}
+
+
+
+footer { width: 100%; background-color:#085e08; clear:both; }
+footer ul { list-style: none; padding: 0px; margin: 0px; font-weight: bold; text-align: center; }
+footer ul li { display: inline-block; color:white; }
+footer ul li a { display: block; padding: 10px 20px; text-decoration: none; color: white; }
+footer ul li a:hover { background-color: white; color: #085e08; }
+/*
+footer {
+	width:100%;
+	height:128px;
+	background-color:orange;
+	clear:both;
+
+
+	}
+
+footer ul li {
+	display:inline-block;
+	color:black;
+	padding-right:10px;
+	margin-top:56px;
+	font-size:18px;
+
+
+}
+
+
+footer ul li a {
+	color:black;
+
+
+}
+footer ul li a:hover {
+	color:white;
+}
+*/
+
+/*Products page*/
+div#product-categories {
+	float:none;
+		width:60%;
+		margin:auto;
+		text-align:center;
+}
+ul#category-names {
+	list-style:none;
+
+}
+
+ul#category-names li {
+	margin-top:2%;
+
+	}
+ul#category-names h4 {
+	font-size:1.2em;
+	font-style:italic;
+	color:#593918;
+
+
+
+
+}
+
+img.categories {
+	width:100px;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	margin-bottom:3%;
+	margin-top:5%;
+
+}
+h2#products-page {
+	text-align:center;
+	color:#085e08;
+	text-decoration:underline;
+	margin-bottom:5%;
+
+
+}
+/*Bikes page*/
+h2#bikes-page {
+	text-align:center;
+	color:#085e08;
+	text-decoration:underline;
+	margin-bottom:5%;
+
+}
+div#bike-categories {
+	width:45%;
+	margin:auto;
+	text-align:center;
+	float:left;
+
+
+}
+div#bike-categories2 {
+	width:45%;
+	margin:auto;
+	text-align:center;
+	float:left;
+	margin-left:10%;
+
+
+}
+ul#bike-category-names {
+	list-style:none;
+
+	display:block;
+
+
+
+
+
+
+
+}
+ul#bike-category-names li {
+	margin-bottom:10%;
+
+}
+ul#bike-category-names h4 {
+	font-size:1.2em;
+	font-style:italic;
+	color:#593918;
+	margin-bottom:2%;
+}
+ul#bike-category-names2 {
+	list-style:none;
+
+	display:block;
+
+
+
+
+
+}
+ul#bike-category-names2 li {
+	margin-bottom:10%;
+
+
+
+}
+ul#bike-category-names2 h4 {
+	font-size:1.2em;
+	font-style:italic;
+	color:#593918;
+	margin-bottom:2%;
+
+}
+img.bike-names {
+	width:100px;
+
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	margin-bottom:3%;
+	margin-top:2%;
+
+}
+img.bike-names2 {
+	width:100px;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	margin-bottom:3%;
+	margin-top:2%;
+
+}
+/*About page*/
+
+div#about {
+	width:100%;
+	margin:auto;
+	text-align:center;
+
+}
+div#about p {
+	width:80%;
+	margin:auto;
+	line-height:1.5em;
+
+}
+div#about p::first-letter {
+	font-size:1.5em;
+	font-weight:200;
+
+}
+h2#about-page {
+	text-align:center;
+	color:#085e08;
+	text-decoration:underline;
+	margin-bottom:5%;
+
+}
+img.about {
+	width:80%;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	margin-bottom:7%;
+
+
+
+}
+
+/*Training page*/
+
+div#training {
+	width:100%;
+	margin:auto;
+	text-align:center;
+
+}
+div#training p {
+	width:80%;
+	margin:auto;
+	line-height:1.5em;
+
+}
+div#training p::first-letter {
+	font-size:1.5em;
+	font-weight:200;
+
+}
+h2#training-page {
+	text-align:center;
+	color:#085e08;
+	text-decoration:underline;
+	margin-bottom:5%;
+
+}
+img.training {
+	width:80%;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	margin-bottom:7%;
+
+
+
+}
+/*Services page*/
+div#service-categories {
+	float:none;
+		width:60%;
+		margin:auto;
+		text-align:center;
+}
+ul#service-names {
+	list-style:none;
+
+}
+
+ul#service-names li {
+	margin-top:2%;
+
+	}
+ul#service-names h4 {
+	font-size:1.2em;
+	font-style:italic;
+	color:#593918;
+
+
+
+
+}
+
+img.services {
+	width:200px;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	margin-bottom:3%;
+	margin-top:5%;
+
+}
+h2#services-page {
+	text-align:center;
+	color:#085e08;
+	text-decoration:underline;
+	margin-bottom:5%;
+
+
+}
+/*Contact page*/
+div#contact {
+	float:none;
+		width:80%;
+		margin:auto;
+		text-align:center;
+}
+
+ul#contact-list {
+	list-style:none;
+	margin-bottom:10%;
+
+}
+
+ul#contact-list li {
+	margin-top:2%;
+
+	}
+
+
+
+h2#contact-page {
+	text-align:center;
+	color:#085e08;
+	text-decoration:underline;
+	margin-bottom:5%;
+
+
+}
+@media all and (min-width:481px) and (max-width:800px) {
+	body, header, section, aside, img.align-center, footer, nav.main, div.images, div#evergreen, div#trails, div#map, img.align-right   {
+
+		float:none;
+		width:100%;
+		margin:auto;
+		text-align:center;
+	}
+div#wrapper {
+	width:100%;
+
+}
+div#content {
+	width:82.9%;
+	margin:auto;
+	background-color:white;
+
+}
+div#live {
+
+	margin:auto;
+	width:97.916667%;
+	background-color:white;
+}
+
+nav.main {
+	font-size:.9em;
+
+
+}
+nav.main ul li {
+	display:block;
+
+}
+section {
+
+	border:none;
+}
+
+h2#home {
+	text-align:center;
+	font-size:1.4em;
+	padding:0;
+	margin-bottom:2%;
+
+}
+p#home {
+	padding:0%;
+	font-size:1.1em;
+}
+aside {
+	background-color:#D5D5D5;
+	margin-top:5%;
+	clear:both;
+
+}
+
+aside ul li {
+
+	margin-bottom:2%;
+
+}
+
+
+
+
+
+h3#news {
+	font-size:1.2em;
+	margin-bottom:2%;
+
+}
+
+div.images h4 {
+	font-size:1.1em;
+
+
+	padding-bottom:1%;
+
+
+}
+img.align-right {
+	width:80%;
+
+
+}
+
+footer {
+	clear:both;
+	margin-top:5%;
+
+}
+footer ul li {
+	display:block;
+
+}
+/*Products page*/
+div#product-categories {
+	float:none;
+		width:80%;
+		margin:auto;
+		text-align:center;
+}
+img.categories {
+	width:40%;
+
+}
+h2#products-page {
+	margin-top:10%;
+	font-size:1.4em;
+
+}
+/*Bikes page*/
+img.bike-names {
+	width:80%;
+
+}
+
+img.bike-names2 {
+	width:80%;
+
+}
+h2#bikes-page {
+	margin-top:10%;
+	font-size:1.4em;
+}
+
+/*About page*/
+h2#about-page {
+	margin-top:10%;
+	font-size:1.4em;
+}
+/*Training page*/
+h2#training-page {
+	margin-top:10%;
+	font-size:1.2em;
+
+}
+
+/*Services page*/
+
+/*Contact page*/
+}
+@media all and (max-width:480px) {
+	body, header, section, aside, img.align-center, footer, nav.main, div.images, div#evergreen, div#trails, div#map, img.align-right {
+
+		float:none;
+		width:100%;
+		margin:auto;
+		margin-top:2%;
+		text-align:center;
+
+	}
+div#wrapper {
+	width:100%;
+
+}
+div#content {
+	width:100%;
+	margin:auto;
+	background-color:white;
+
+}
+div#live {
+
+	margin:auto;
+	width:97.916667%;
+	background-color:white;
+}
+nav.main {
+	font-size:.8em;
+
+
+}
+nav.main ul li {
+	display:block;
+
+}
+section {
+
+	border:none;
+}
+
+h2#home {
+	text-align:center;
+	font-size:1.3em;
+	padding:0;
+	padding-bottom:1%;
+
+}
+p#home {
+	font-size:.9em;
+	padding:0;
+
+}
+aside {
+	background-color:#D5D5D5;
+	clear:both;
+
+}
+
+h3#news {
+	font-size:.9em;
+	margin-bottom:2%;
+
+}
+aside ul li {
+
+	margin-bottom:2%;
+
+}
+footer {
+	clear:both;
+	margin-top:5%;
+
+}
+footer ul li {
+	display:block;
+
+}
+div.images h4 {
+
+	font-size:1.1em;
+	padding-bottom:1%;
+
+
+}
+img.align-right {
+	width:99%;
+
+}
+/*Products page*/
+div#product-categories {
+	float:none;
+		width:100%;
+		margin:auto;
+		text-align:center;
+}
+img.categories {
+	width:60%;
+
+}
+h2#products-page {
+	margin-top:10%;
+	font-size:1.4em;
+
+}
+/*Bikes page*/
+div#bike-categories, div#bike-categories2 {
+	float:none;
+	margin:auto;
+	width:100%;
+
+}
+img.bike-names {
+	width:70%;
+
+}
+
+img.bike-names2 {
+	width:70%;
+
+}
+h2#bikes-page {
+	margin-top:10%;
+	font-size:1.4em;
+	margin-bottom:8%;
+}
+/*About page*/
+
+h2#about-page {
+	margin-top:10%;
+	font-size:1.2em;
+
+}
+/*Training page*/
+h2#training-page {
+	margin-top:10%;
+	font-size:1.2em;
+
+}
+/*Services page*/
+
+/*Contact page*/
+
+}
