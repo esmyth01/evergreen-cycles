@@ -17,6 +17,16 @@
   });
 </script>
 
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+
 <!--Start wp head-->
 
 <?php wp_head()?>
@@ -36,11 +46,11 @@
 
 
 <header>
-<a href="../wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-header.png" alt="header" class="header"/></a>
+<a href="http://www.evansmyth.com/wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-header.png" alt="header" class="header"/></a>
 </header>
 
 
-<nav class="main">
+<!--<nav class="main">
 <ul class="main">
 <li class="main"><a href="index.php">About</a></li>
 <li class="main"><a href="products.php">Products</a></li>
@@ -50,7 +60,9 @@
 <li class="main" ><a href="contact.php">Contact</a></li>
 </ul>
 </nav>
+-->
 
+<?php wp_nav_menu(); ?>
 
 <div id="main-content">
 
@@ -71,10 +83,9 @@
 <h3 id="news">News</h3>
 
 <ul>
-<li><h4><strong>5/17</strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
-<li><h4><strong>6/1</strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
-<li><h4><strong>6/7</strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
-<li><h4><strong>6/12</strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+<li><h4><strong><a href="">5/17</a></strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+<li><h4><strong><a href="">6/1</a></strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+<li><h4><strong><a href="">5/7</a></strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
 
 </ul>
 

@@ -177,47 +177,109 @@ img.header {
 }
 
 
-
+/*
 nav.main { clear:both; margin-bottom:3%; }
 nav.main { width: 100%; background-color:#085e08; }
 nav.main ul { list-style: none; padding: 0px; margin: 0px; font-weight: bold; text-align: center; }
 nav.main ul li { display: inline-block; }
 nav.main ul li a { display: block; padding: 10px 40px; text-decoration: none; color: white; }
 nav.main ul li a:hover { background-color: white; color: #085e08; }
-
-/*
-nav.main {
-	width:100%;
-	height:40px;
-	background-color:green;
-		font-size:100%;
-
-
-}
-ul.main {
-	text-align:center;
-
-}
-
-li.main {
-	display:inline-block;
-	text-decoration:none;
-	padding:4%;
-	padding-top:.8%;
-
-
-}
-
-li.main a {
-	text-decoration:none;
-	color:white;
-
-	font-size:18px;
-
-}
-
 */
+/*Begin Nav*/
 
+
+div.menu-main-container {
+	max-width: auto;
+	margin: 0px auto;
+	background-color:#2B621D;
+	height:50px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#menu-main {
+	text-align: center;
+	overflow: hidden;
+	height:50px;
+}
+
+#menu-main > li {
+
+	font-size: 1.125em;
+	display: inline-block;
+	list-style-type: none;
+	height:50px;
+}
+#menu-main > li a {
+
+	text-decoration:none;
+}
+
+#menu-main > li a.current {
+  background:#EEF2DC;
+  color:#2B621D;
+	border-radius:10px;
+}
+
+#menu-main ul li:hover {
+	height:50px;
+	border-radius:10px 10px 0 0;
+
+}
+#menu-main ul li a:hover
+{
+	background-color:#EEF2DC;
+	color:#2B621D;
+	height:30px;
+
+
+}
+
+#menu-main > li a {
+	display: block;
+	color: #EEF2DC;
+	padding: 14px 24px;
+
+}
+#menu-main > li a:hover {
+
+	background-color:#EEF2DC;
+	color:#2B621D;
+	border-radius:10px;
+}
+
+
+#menu-main ul.sub-menu {
+	text-align: left;
+	position: absolute;
+	display: none;
+	background-color: rgba(43,98,29,0.8);
+	z-index: 20;
+	border-radius:10px;
+}
+
+#menu-main ul.sub-menu li {
+	display: block;
+	float: none;
+	font-size: 1em;
+}
+
+#menu-main ul.sub-menu li a {
+
+}
+
+
+
+#menu-main li:hover > ul.sub-menu{
+	display: block;
+	margin: 0;
+	border-radius:10px;
+}
+
+
+/*End Nav*/
 
 img.align-center {
 	width:100%;
