@@ -8,10 +8,13 @@ Description: This is the theme for my web170 wordpress course at Seattle Central
 Version: 1.0
 */
 
+//Register my menus
+
+register_nav_menus(array('main-menu' => __('Main'),
+));
 
 
-
-
+//End menu function
 
 
 

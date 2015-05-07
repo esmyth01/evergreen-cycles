@@ -29,25 +29,32 @@
 
 
 <body <?php body_class();?>>
+
 <div id="wrapper">
 
 
-<div id="content">
+
+
 <header>
 <a href="../wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-header.png" alt="header" class="header"/></a>
 </header>
+
+
 <nav class="main">
 <ul class="main">
-<li class="main"><a href="main.html">About</a></li>
+<li class="main"><a href="index.php">About</a></li>
 <li class="main"><a href="products.php">Products</a></li>
 <li class="main" ><a href="services.php">Services</a></li>
 <li class="main"><a href="training.php">Training</a></li>
+<li class="main" ><a href="blog.php">Blog</a></li>
 <li class="main" ><a href="contact.php">Contact</a></li>
 </ul>
 </nav>
-<div id="live">
+
+
+<div id="main-content">
+
 <section>
-<div id="about">
 
 
 <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
@@ -58,8 +65,6 @@
 
 <?php endwhile; endif;  //end loop?>
 
-
-</div>
 </section>
 
 <aside>
@@ -83,7 +88,12 @@
 
 
 
-</div>
+
+
+
+
+
+</div><!--end main-content-->
 
 <footer>
 <ul>
@@ -96,9 +106,7 @@
 </ul>
 </footer>
 
-
-</div>
-</div>
+</div><!--end wrapper-->
 
 <?php wp_footer()?>
 
