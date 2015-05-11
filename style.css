@@ -133,7 +133,7 @@ a img.aligncenter {
 body{
 
 
-background-image:url(../images/wrapper.png);
+
 background-color:white;
 font-family:"trebuchet MS", Arial, Helvetica, sans-serif;
 font-size:100%;
@@ -148,7 +148,7 @@ width:100%;
 }
 
 #wrapper {
-	width:64%;
+	width:60%;
 	margin:auto;
 	background:white;
 
@@ -167,6 +167,13 @@ div#main-content {
 header {
 	width:100%;
 	margin:auto;
+
+}
+div#logo{
+  width:40%;
+  margin:auto;
+  padding:25px 0;
+
 
 }
 
@@ -191,7 +198,7 @@ nav.main ul li a:hover { background-color: white; color: #085e08; }
 div.menu-main-container {
 	max-width: auto;
 	margin: 0px auto;
-	background-color:#2B621D;
+	background-color:#698F69;
 	height:50px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -219,7 +226,7 @@ div.menu-main-container {
 
 #menu-main > li a.current {
   background:#EEF2DC;
-  color:#2B621D;
+  color:#698F69;
 	border-radius:10px;
 }
 
@@ -231,7 +238,7 @@ div.menu-main-container {
 #menu-main ul li a:hover
 {
 	background-color:#EEF2DC;
-	color:#2B621D;
+	color:#698F69;
 	height:30px;
 
 
@@ -240,13 +247,13 @@ div.menu-main-container {
 #menu-main > li a {
 	display: block;
 	color: #EEF2DC;
-	padding: 14px 24px;
+	padding: 14.5px 30px;
 
 }
 #menu-main > li a:hover {
 
 	background-color:#EEF2DC;
-	color:#2B621D;
+	color:#698F69;
 	border-radius:10px;
 }
 
@@ -255,7 +262,7 @@ div.menu-main-container {
 	text-align: left;
 	position: absolute;
 	display: none;
-	background-color: rgba(43,98,29,0.8);
+	background-color: rgba(105,143,105,0.8);
 	z-index: 20;
 	border-radius:10px;
 }
@@ -288,9 +295,11 @@ img.align-center {
 
 }
 section {
-	background-color:white;
+	background-color:#F2F4F2;
 	margin-top:2%;
 	margin-bottom:2%;
+  border-radius:5px;
+
 
 	width:65.957446%;
 	float:left;
@@ -404,7 +413,7 @@ div#trails, div#map {
 
 
 
-footer { width: 100%; background-color:#085e08; clear:both; }
+footer { width: 100%; background-color:#698F69; clear:both; }
 footer ul { list-style: none; padding: 0px; margin: 0px; font-weight: bold; text-align: center; }
 footer ul li { display: inline-block; color:white; }
 footer ul li a { display: block; padding: 10px 20px; text-decoration: none; color: white; }

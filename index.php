@@ -46,7 +46,10 @@ $(function(){
 
 
 <header>
-<a href="http://www.evansmyth.com/wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-header.png" alt="header" class="header"/></a>
+  <div id="logo">
+<a href="http://www.evansmyth.com/wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-new-logo(wordpress).png" alt="header" class="header"/></a>
+  </div>
+
 </header>
 
 
