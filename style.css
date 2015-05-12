@@ -324,7 +324,7 @@ h2#home {
 	text-align:center;
 
 }
-aside {
+div#sub-navigation {
 	background-color:#B6C3CD;
 	margin-top:2%;
 	width:31.914893%;
@@ -338,19 +338,19 @@ aside {
 
 }
 
-h3#news {
+h3.sub-navigation-title {
 	font-size:1.3em;
 	text-align:center;
 	color:#085e08;
 	margin-bottom:5%;
 	text-decoration:underline;
 }
-aside ul {
+#sub-navigation ul {
 	list-style:none;
 	font-size:1em;
 	text-align:center;
 }
-aside ul li {
+#sub-navigation ul li {
 	line-height:1.2em;
 	margin-bottom:5%;
 	margin-left:2%;

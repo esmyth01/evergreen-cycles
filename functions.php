@@ -16,7 +16,10 @@ register_nav_menus(array('main-menu' => __('Main'),
 
 //End menu function
 
+//Start sidebar
 
+register_sidebar();
 
+//End sidebar
 
 ?>

@@ -83,16 +83,17 @@ $(function(){
 </section>
 
 <aside>
-<h3 id="news">News</h3>
+<?php get_sidebar();?>
+</aside>
 
-<ul>
+<!--<ul>
 <li><h4><strong><a href="">5/17</a></strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
 <li><h4><strong><a href="">6/1</a></strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
 <li><h4><strong><a href="">5/7</a></strong></h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
 
 </ul>
+-->
 
-</aside>
 
 <div class="images">
 <div id="evergreen"><h4>EG Advantage</h4><a href="evergreen-advantage.php"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-advantage.png" alt="Evergreen Advantage" class="align-right" /></a></div>
