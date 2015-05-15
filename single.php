@@ -33,7 +33,7 @@
 <div id="map"><h4>Map</h4><img src="<?php bloginfo('template_directory'); ?>/images/embeded-map.png" alt="Embeded Map" class="align-right" /></div>
 </div>
 
-<small>index.php</small>
+<small>single.php</small>
 
 
 
