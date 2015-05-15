@@ -1,5 +1,22 @@
 <?php get_header(); ?>
 
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="<?php bloginfo('template_directory'); ?>/images/flexslider1.png" alt="flexslider" class="flexslider-pics"/>
+    </li>
+    <li>
+      <img src="<?php bloginfo('template_directory'); ?>/images/flexslider2.png" alt="flexslider" class="flexslider-pics"/>
+    </li>
+    <li>
+      <img src="<?php bloginfo('template_directory'); ?>/images/flexslider3.png" alt="flexslider" class="flexslider-pics"/>
+    </li>
+  <li>
+      <img src="<?php bloginfo('template_directory'); ?>/images/flexslider4.png" alt="flexslider" class="flexslider-pics"/>
+    </li>
+  </ul>
+</div>
+
 <section>
 
 
@@ -30,8 +47,10 @@
 <div id="widgets">
   <div class="widget-item">
     <h3><a href="">Evergreen Advantgage</a></h3>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium perspiciatis unde omnis iste natus error perspiciatis unde omnis iste
-    </p>
+    <?php if (have_posts() ) : while(have_posts() ) : the_post(); //loop one ?>
+      <?php the_content(''); //get home page content ?>
+    <?php endwhile; endif;// end loop one ?>
+
   </div>
   <div class="widget-item">
     <h3>Blog Postings</h3>
