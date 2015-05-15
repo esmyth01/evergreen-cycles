@@ -368,7 +368,7 @@ h3.sub-navigation-title {
 
 */
 
-div.images {
+/*div.images {
 	clear:both;
 	width:100%;
 	background-color:white;
@@ -410,7 +410,55 @@ div#trails, div#map {
 	margin-left:2.127659%
 
 }
+*/
 
+#widgets {
+  clear:both;
+  width:100%;
+}
+
+.widget-item {
+  width:31.914893%;
+	float:left;
+  
+
+
+
+}
+.widget-item:nth-child(2){
+  margin-left:2.127659%;
+
+}
+
+.widget-item:nth-child(3){
+
+  margin-left:2.127659%;
+}
+.widget-item h3 {
+  text-align:center;
+
+
+
+}
+.widget-item h3 a {
+
+  text-decoration:none;
+
+}
+.widget-item ul{
+  text-align:center;
+  margin: 0 auto;
+
+
+
+
+}
+.widget-item ul li {
+
+  list-style-type:none;
+
+
+}
 
 
 footer { width: 100%; background-color:#698F69; clear:both; }

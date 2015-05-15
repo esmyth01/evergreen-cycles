@@ -27,10 +27,32 @@
 -->
 
 
-<div class="images">
-<div id="evergreen"><h4>EG Advantage</h4><a href="evergreen-advantage.php"><img src="<?php bloginfo('template_directory'); ?>/images/evergreen-advantage.png" alt="Evergreen Advantage" class="align-right" /></a></div>
-<div id="trails"><h4>Trails</h4><a href="http://mmba.org/trail-guide/"><img src="<?php bloginfo('template_directory'); ?>/images/trails.png" alt="Trails" class="align-right" /></div></a>
-<div id="map"><h4>Map</h4><img src="<?php bloginfo('template_directory'); ?>/images/embeded-map.png" alt="Embeded Map" class="align-right" /></div>
+<div id="widgets">
+  <div class="widget-item">
+    <h3><a href="">Evergreen Advantgage</a></h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium perspiciatis unde omnis iste natus error perspiciatis unde omnis iste
+    </p>
+  </div>
+  <div class="widget-item">
+    <h3>Blog Postings</h3>
+    <ul>
+      <li><a href="#">one</a></li>
+      <li><a href="#">two</a></li>
+      <li><a href="#">three</a></li>
+      <li><a href="#">four</a></li>
+      <li><a href="#">five</a></li>
+    </ul>
+  </div>
+  <div class="widget-item">
+    <h3>Contact Info</h3>
+    <ul>
+      <li><strong>Phone:</strong> 123.456.789</li>
+      <li><strong>Email:</strong> blah@blah.com</li>
+      <li>555 Grand River</li>
+      <li>East Lansing MI</li>
+      <li>48823</li>
+    </ul>
+  </div>
 </div>
 
 <small>page.php</small>
