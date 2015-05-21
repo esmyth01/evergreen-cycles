@@ -46,20 +46,25 @@
 
 <div id="widgets">
   <div class="widget-item">
-    <h3><a href="">Evergreen Advantgage</a></h3>
-    <?php if (have_posts() ) : while(have_posts() ) : the_post(); //loop one ?>
-      <?php the_content(''); //get home page content ?>
-    <?php endwhile; endif;// end loop one ?>
+    <?php query_posts('page_id=99'); ?>
+    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+    <?php echo substr(get_the_content(), 0, 150); ?>
+
+
+
+
+	<!-- <php query_post('page_id=14')<php echo substr(get_the_content(), 0, 150); ?>-->
 
   </div>
   <div class="widget-item">
     <h3>Blog Postings</h3>
     <ul>
-      <li><a href="#">one</a></li>
-      <li><a href="#">two</a></li>
-      <li><a href="#">three</a></li>
-      <li><a href="#">four</a></li>
-      <li><a href="#">five</a></li>
+
+    <?php rewind_posts(); ?>
+    <?php query_posts('showposts=4'); ?>
+    <?php while (have_posts()) : the_post(); ?>
+      <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+      <?php endwhile; ?>
     </ul>
   </div>
   <div class="widget-item">
