@@ -18,8 +18,12 @@ register_nav_menus(array('main-menu' => __('Main'),
 
 //Start sidebar
 
-register_sidebar();
+register_sidebar(array(
+'before_widget' => '<div>',
+'after_widget' => '/div>',
+'before_title' => '<h2>', 
+'after_title' => '</h2>'));
+
 
 //End sidebar
-
 ?>
