@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, minimumscale=
 1.0, maximum-scale=1.0" />
-<title><?php bloginfo('description'); ?> | <?php bloginfo('name'); ?> </title>
+<meta name="description" content="<?php echo get_the_excerpt(); ?>" />
+<title><?php echo get_my_title_tag(); ?> </title>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" >
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
