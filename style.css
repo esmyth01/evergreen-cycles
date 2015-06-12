@@ -164,6 +164,12 @@ div#main-content {
 	margin:auto;
 }
 
+#main-content article.post-excerpt {
+	
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
 header {
 	width:100%;
 	margin:auto;
@@ -459,6 +465,22 @@ div#trails, div#map {
 
 
 }
+<!-- thumbnail image styling for blog page -->
+
+img.wp-post-image {}
+#main-content img.attachment-thumbnail {
+	
+	float: left;
+	margin: 4px 20px 0 0;
+	
+	}
+img.attachment-medium {}
+img.attachment-large {}
+img.attachment-full {}
+
+
+<!-- end thumbnail styling -->
+
 
 
 footer { width: 100%; background-color:#698F69; clear:both; }
@@ -1024,39 +1046,4 @@ h2#products-page {
 /*Bikes page*/
 div#bike-categories, div#bike-categories2 {
 	float:none;
-	margin:auto;
-	width:100%;
-
-}
-img.bike-names {
-	width:70%;
-
-}
-
-img.bike-names2 {
-	width:70%;
-
-}
-h2#bikes-page {
-	margin-top:10%;
-	font-size:1.4em;
-	margin-bottom:8%;
-}
-/*About page*/
-
-h2#about-page {
-	margin-top:10%;
-	font-size:1.2em;
-
-}
-/*Training page*/
-h2#training-page {
-	margin-top:10%;
-	font-size:1.2em;
-
-}
-/*Services page*/
-
-/*Contact page*/
-
-}
+	margin:a
