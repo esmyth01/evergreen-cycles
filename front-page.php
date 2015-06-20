@@ -51,8 +51,6 @@
     <?php echo substr(get_the_content(), 0, 150); ?>
 
 
-
-
 	<!-- <php query_post('page_id=14')<php echo substr(get_the_content(), 0, 150); ?>-->
 
   </div>
@@ -80,12 +78,6 @@
 </div>
 
 <small>front-page.php</small>
-
-
-
-
-
-
 
 
 <?php get_footer(); ?>

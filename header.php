@@ -53,17 +53,7 @@ $(function(){
 </header>
 
 
-<!--<nav class="main">
-<ul class="main">
-<li class="main"><a href="index.php">About</a></li>
-<li class="main"><a href="products.php">Products</a></li>
-<li class="main" ><a href="services.php">Services</a></li>
-<li class="main"><a href="training.php">Training</a></li>
-<li class="main" ><a href="blog.php">Blog</a></li>
-<li class="main" ><a href="contact.php">Contact</a></li>
-</ul>
-</nav>
--->
+
 
 <?php wp_nav_menu(); ?>
 
